@@ -1,0 +1,26 @@
+[2026-11-17 16:57:43] [SYSTEM] ManagementSystem initialized with default service catalog.
+[2026-11-17 17:07:55] [EVENT] New client registered: angie - angie vargas (acvargasva@unadvirtual.edu.co)
+[2026-11-17 17:08:40] [EVENT] New client registered: 1057854545 - angie vargas (acvargasva@unadvirtual.edu.co)
+[2026-11-17 17:19:00] [EVENT] Booking #1 created for angie vargas | Service: RM-01 | Total: $165.00
+[2026-11-17 17:20:20] [ERROR] Invalid non-numeric hours input: 'seis'
+[2026-11-17 19:07:57] [EVENT] Service added to catalog: [RM-01] Executive Conference Room (25 pax) - Base Rate: $50.00/hr
+[2026-11-17 19:07:57] [EVENT] Service added to catalog: [RM-02] Small Meeting Room (8 pax) - Base Rate: $30.00/hr
+[2026-11-17 19:07:57] [EVENT] Service added to catalog: [EQ-01] 4K Laser Projector - Base Rate: $20.00/hr
+[2026-11-17 19:07:57] [EVENT] Service added to catalog: [EQ-02] High-Performance Workstation - Base Rate: $25.00/hr
+[2026-11-17 19:07:57] [EVENT] Service added to catalog: [CS-01] Cloud Architecture Consulting - Base Rate: $80.00/hr
+[2026-11-17 19:07:57] [EVENT] Service added to catalog: [CS-02] Cybersecurity Audit - Base Rate: $95.00/hr
+[2026-11-17 19:07:57] [SYSTEM] ManagementSystem initialized with default service catalog.
+[2026-11-17 19:08:59] [SIMULATION] === STARTING 10-OPERATION SYSTEM SIMULATION ===
+[2026-11-17 19:08:59] [EVENT] New client registered: C-501 - Carlos Mendez (carlos@mail.com)
+[2026-11-17 19:08:59] [EVENT] New client registered: C-502 - Diana Torres (diana@mail.com)
+[2026-11-17 19:08:59] [ERROR] Client registration failed: Client ID 'C-501' is already registered.
+[2026-11-17 19:08:59] [ERROR] Client registration failed: Invalid email address format.
+[2026-11-17 19:08:59] [EVENT] Service added to catalog: [RM-03] Training Lab - Base Rate: $45.00/hr
+[2026-11-17 19:08:59] [EVENT] Booking #1 [Confirmed] for Carlos Mendez | Service: RM-01 | Total: $196.35
+[2026-11-17 19:08:59] [AUDIT] Booking attempt processed for Client ID='C-501', Service='RM-01'.
+[2026-11-17 19:08:59] [EVENT] Booking #2 [Confirmed] for Diana Torres | Service: CS-01 | Total: $410.40
+[2026-11-17 19:08:59] [AUDIT] Booking attempt processed for Client ID='C-502', Service='CS-01'.
+[2026-11-17 19:08:59] [ERROR] Client ID 'C-999' was not found.
+[2026-11-17 19:08:59] [AUDIT] Booking attempt processed for Client ID='C-999', Service='EQ-01'.
+[2026-11-17 19:08:59] [EVENT] Booking #1 has been Cancelled.
+[2026-11-17 19:08:59] [SIMULATION] === COMPLETED 10-OPERATION SYSTEM SIMULATION ===
